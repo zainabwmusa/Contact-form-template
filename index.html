@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="colorlib.png">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"> -->
+
+</head>
+<body>
+
+  <div class="contact-form">
+    <!--Contact-->
+    <h1>Contact Form Assignment</h1>
+    <div class="contact">
+      <!--Address-->
+      <div class="address">
+        <svg class="cl-icon" viewBox="0 0 1024 1792" style="vertical-align:-0.1429em" aria-hidden="true" focusable="false">
+    <g transform="translate(0,1536) scale(1,-1)">
+      <path
+        d="M693.0 715.0Q768 790 768.0 896.0Q768 1002 693.0 1077.0Q618 1152 512.0 1152.0Q406 1152 331.0 1077.0Q256 1002 256.0 896.0Q256 790 331.0 715.0Q406 640 512.0 640.0Q618 640 693.0 715.0ZM1024 896Q1024 787 991 717L627 -57Q611 -90 579.5 -109.0Q548 -128 512.0 -128.0Q476 -128 444.5 -109.0Q413 -90 398 -57L33 717Q0 787 0 896Q0 1108 150.0 1258.0Q300 1408 512.0 1408.0Q724 1408 874.0 1258.0Q1024 1108 1024 896Z">
+      </path>
+    </g>
+  </svg>
+  <h2>Address:</h2>
+  <p>5, Shonde Close, Off Akinde Road, Lagos-State, Nigeria.</p>
+      </div>
+      <!--Phone-->
+      <div class="phone">
+          <svg class="cl-icon" viewBox="0 0 1408 1792" style="vertical-align:-0.1429em" aria-hidden="true" focusable="false">
+            <g transform="translate(0,1536) scale(1,-1)">
+              <path
+                d="M1408 296Q1408 269 1398.0 225.5Q1388 182 1377 157Q1356 107 1255 51Q1161 0 1069 0Q1042 0 1016.0 3.5Q990 7 958.5 16.0Q927 25 911.5 30.5Q896 36 856.0 51.0Q816 66 807 69Q709 104 632 152Q505 231 368.0 368.0Q231 505 152 632Q104 709 69 807Q66 816 51.0 856.0Q36 896 30.5 911.5Q25 927 16.0 958.5Q7 990 3.5 1016.0Q0 1042 0 1069Q0 1161 51 1255Q107 1356 157 1377Q182 1388 225.5 1398.0Q269 1408 296 1408Q310 1408 317 1405Q335 1399 370 1329Q381 1310 400.0 1275.0Q419 1240 435.0 1211.5Q451 1183 466 1158Q469 1154 483.5 1133.0Q498 1112 505.0 1097.5Q512 1083 512 1069Q512 1049 483.5 1019.0Q455 989 421.5 964.0Q388 939 359.5 911.0Q331 883 331 865Q331 856 336.0 842.5Q341 829 344.5 822.0Q348 815 358.5 798.0Q369 781 370 779Q446 642 544.0 544.0Q642 446 779 370Q781 369 798.0 358.5Q815 348 822.0 344.5Q829 341 842.5 336.0Q856 331 865 331Q883 331 911.0 359.5Q939 388 964.0 421.5Q989 455 1019.0 483.5Q1049 512 1069 512Q1083 512 1097.5 505.0Q1112 498 1133.0 483.5Q1154 469 1158 466Q1183 451 1211.5 435.0Q1240 419 1275.0 400.0Q1310 381 1329 370Q1399 335 1405 317Q1408 310 1408 296Z">
+              </path>
+            </g>
+          </svg>
+          <h2>Phone:</h2>
+          <p>+234 701 17 66328</p>
+      </div>
+      <!--Email-->
+      <div class="email">
+        <svg class="cl-icon" viewBox="0 0 1792 1792" style="vertical-align:-0.1429em" aria-hidden="true" focusable="false">
+          <g transform="translate(0,1536) scale(1,-1)">
+            <path
+              d="M1764 1525Q1797 1501 1791 1461L1535 -75Q1530 -104 1503 -120Q1489 -128 1472 -128Q1461 -128 1448 -123L995 62L753 -233Q735 -256 704 -256Q691 -256 682 -252Q663 -245 651.5 -228.5Q640 -212 640 -192V157L1504 1216L435 291L40 453Q3 467 0 508Q-2 548 32 567L1696 1527Q1711 1536 1728 1536Q1748 1536 1764 1525Z">
+            </path>
+          </g>
+        </svg>
+        <h2>Email:</h2>
+        <p><a href="mailto:zainabwmusa@gmail.com">zainabwmusa@gmail.com</a></p>
+      </div>
+
+    </div>
+
+
+
+
+    <!--Form-->
+    <div class="form">
+      <!--Form-->
+      <h1>Get in touch with us</h1>
+      <form action="#" method="post">
+      <!--Name-->
+        <input type="text" name="name" id="name" placeholder="Name" required>
+      <!--Email-->
+      <input type="email" name="email" id= "email" placeholder="Email" required>
+      <!--Subject-->
+      <input type="text" name="subject" id="subject" placeholder="Subject" required>
+      <!--Message-->
+      <textarea rows="15" cols="30" name="message" id="message" placeholder="Message"></textarea>
+
+      <button type="reset">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
